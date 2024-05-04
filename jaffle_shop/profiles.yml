@@ -1,0 +1,8 @@
+jaffle_shop:
+  target: dev
+  outputs:
+   dev:
+     type: excel
+     path: "./sources/dbt_excel.duckdb"
+     database: dbt_excel
+     schema: main
