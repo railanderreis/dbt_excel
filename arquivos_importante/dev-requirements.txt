@@ -1,0 +1,31 @@
+# install latest changes in dbt-core
+# git+https://github.com/dbt-labs/dbt-core.git#egg=dbt-core&subdirectory=core
+# git+https://github.com/dbt-labs/dbt-core.git#egg=dbt-tests-adapter&subdirectory=tests/adapter
+
+dbt-tests-adapter==1.4.5
+
+boto3
+mypy-boto3-glue
+pandas
+pyarrow
+black==23.3.0
+bumpversion
+flake8
+flaky
+freezegun==1.2.2
+fsspec
+ipdb
+mypy==1.2.0
+openpyxl
+pip-tools
+pre-commit
+pytest
+pytest-dotenv
+pytest-logbook
+pytest-csv
+pytest-xdist
+pytest-mock
+pytz
+tox>=3.13
+twine
+wheel

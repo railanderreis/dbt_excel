@@ -2,7 +2,7 @@
 
 config(
   materialized='external',
-  location='./sources/curated/customers.xlsx',
+  location='./sources/customers.xlsx',
   format="xlsx"
 )
 
